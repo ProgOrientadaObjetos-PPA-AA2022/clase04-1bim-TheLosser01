@@ -15,8 +15,7 @@ public class FacturaTelefonica {
     public FacturaTelefonica(){
         numeroTelefono = "123456789";
         minutosMes = 100;
-        valorMinuto = 0.25;
-        
+        valorMinuto = 0.25;   
     }
 
     public void establecerNumeroTelefono(String c) {
