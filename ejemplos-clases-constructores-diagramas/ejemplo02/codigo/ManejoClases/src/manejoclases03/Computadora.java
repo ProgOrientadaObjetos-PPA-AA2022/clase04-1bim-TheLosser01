@@ -38,4 +38,13 @@ public class Computadora {
         return memoria;
     }
     
+    @Override
+    public String toString() {
+        String cadena = String.format("Computadora\n"
+                + "Tipo Porcesador %s\n"
+                + "Memoria: %.2f\n",
+                tipoProcesador,
+                memoria);
+        return cadena;
+    }
 }
